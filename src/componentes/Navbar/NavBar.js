@@ -1,4 +1,5 @@
 import Style from './NavBar.module.css'
+import { Link } from 'react-router-dom';
 
 function NavBar() {
     return (
@@ -7,14 +8,14 @@ function NavBar() {
                 <h1>ITAE</h1>
             </div>
             <ul className={Style.linksbar}>
-                <li>Home</li>
-                <li>Sobre nós</li>
-                <li>Serviçõs</li>
+                <li><Link to="/" className={Style.link}>Home</Link></li>
+                <li>APP</li>
+                <li>Contas</li>
                 <li>Fale Conosco</li>
             </ul>
 
             <div className={Style.login}>
-                <span>LOGIN</span>
+            <span><Link to="/login" className={Style.link}>LOGIN</Link></span>
             </div>
         </nav>
     )

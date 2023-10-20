@@ -5,15 +5,20 @@ import { BsCreditCardFill } from "react-icons/bs";
 import { AiOutlineStock } from "react-icons/ai";
 import { BsPersonBadgeFill } from "react-icons/bs";
 import { IoLogoBitcoin } from "react-icons/io";
+import { Link } from 'react-router-dom';
 function SegundaSection() {
     return (
         <div className={Style.sectionone}>
             <div className={Style.textinf}>
                 <p><span className={Style.destacado}>Planeje</span> e <span className={Style.destacado}>invista</span> com nossos serviços </p>
-                <span className={Style.registre}>REGISTRE-SE</span>
+                <span className={Style.registre}>
+                    <Link to="/Registro" className={Style.link}>REGISTRE-SE</Link>
+                </span>
             </div>
 
-            <div className={Style.containerServicos}>
+            <div className={Style.containerServicos}data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
                 <div class={Style.servicos}>
                     <div className={Style.item0}>&nbsp;
                         <div className={Style.icon}><BsCreditCardFill /></div>

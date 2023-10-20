@@ -1,24 +1,25 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from './componentes/Navbar/NavBar';
-import SectionOne from './componentes/SectionOne/SectionOne';
-import SectionTwo from './componentes/SegundaSessao/SegundaSessao'
-import TerceiraSection from './componentes/TerceiraSection/TerceiraSection';
-import QuartSessao from './componentes/QuartaSessao/QuartaSessao';
-import Contas from './componentes/contas/Contas';
-import Footer from './componentes/Footer/Footer'
+import Tudo from './Pages/Tudo'
+import Footer from './componentes/Footer/Footer';
+import Login from './Pages/Login';
 import './App.css';
+import Registro from './Pages/Registro';
 
 function App() {
   return (
     <div className="App">
-      <header>
-          <NavBar/>
-          <SectionOne/>
-          <SectionTwo/>
-          <TerceiraSection/>
-          <QuartSessao/>
-          <Contas/>
-          <Footer/>
-      </header>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path='/' element={<Tudo />} />
+          <Route path='Login' element={<Login />} />
+          <Route path='Registro' element={<Registro />} />
+        </Routes>
+        <Footer />
+      </Router>
+
+
     </div>
   );
 }

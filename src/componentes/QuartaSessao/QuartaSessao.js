@@ -5,7 +5,7 @@ function QuartSessao(){
     return(
         <div className={Style.quartasessao}>
             <div className={Style.textquarta}>
-                <p>Com nossa conta PJ você possui a facilidade de administrar sua conta em qualquer lugar. Além de vantagens exclusivas!</p>
+                <p>Transforme as suas compras em experiências ainda mais gratificantes com nossas vantagens exlusivas</p>
             </div>
 
             <div className={Style.imagemcard}>

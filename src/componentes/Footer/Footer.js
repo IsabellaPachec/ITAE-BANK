@@ -15,7 +15,7 @@ function Footer(){
                 <div className={Style.div2}>
                     <ul>
                         <li><h4>Contato</h4></li>
-                        <li>suportItae@gma.com</li>
+                        <li>suportItae@gmail.com</li>
                         <li>(11) 99999-9999</li>
                         <li>Rua Tito 54, Lapa-SP</li>
                     </ul>
