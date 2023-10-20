@@ -26,7 +26,7 @@ function TerceiraSection() {
                     data-aos-easing="linear"
                     data-aos-offset="300"
                     data-aos-duration="500">
-                    <h4>Adiministre seu dinheiro</h4>
+                    <h4>Administre seu dinheiro</h4>
                     <p>Administre suas finanças, seus bônus e o rendimento do seu dinheiro com apenas um clique. Simplifique sua vida financeira e alcance seus objetivos com facilidade.</p>
                 </div>
             </div>
