@@ -1,0 +1,75 @@
+.terceirasection{
+    width: 100%;
+    height: 120vh;
+}
+
+.terceirasection{
+    background-image: url(img/ondinhas\ \(1\)\ 2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.tituloterceira{
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.cdt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.invista{
+    text-align: right;
+    position: absolute;
+    margin-right: 65%;
+    margin-bottom: 10%;
+}
+
+.estatistica img{
+    width: 90%;
+    margin-left: 25%;
+}
+
+.invista p{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-left: 40%;
+    line-height: 113%;
+    
+}
+
+.invista{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.celular{
+    margin-left: 5%;
+}
+
+
+
+.adm {
+    width: 25%;
+    margin-top: 20%;
+    margin-left: 65%;
+    position: absolute;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+}
+
+.adm p{
+    font-size: 1.2rem;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-left: 10%;
+    line-height: 113%;
+}

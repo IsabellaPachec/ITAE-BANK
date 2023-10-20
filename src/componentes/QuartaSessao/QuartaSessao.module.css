@@ -1,0 +1,26 @@
+.quartasessao{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120vh;
+    background-image: url(img/Group\ 17.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-around;
+}
+.textquarta p{
+    font-size: 3rem;
+    line-height: 142.5%;
+    text-align: left;
+    padding: 1%;
+    margin-left: 10%;
+    margin-bottom: 40%;
+}
+
+
+.imagemcard{
+    margin-top: 5%;
+}

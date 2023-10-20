@@ -1,0 +1,43 @@
+footer {
+    margin-top: 150px;
+    background: linear-gradient(264deg, rgba(2, 6, 8, 0.53) 0%, rgba(22, 52, 65, 0.39) 42.23%, rgba(22, 52, 65, 0.26) 83.16%, rgba(5, 14, 18, 0.53) 99.43%);
+    ;
+    height: 200px;
+
+}
+
+.posic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+h5 {
+    text-align: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.posic li {
+    list-style: none;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.div1 h1 {
+    color: #4ADEDD;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+}

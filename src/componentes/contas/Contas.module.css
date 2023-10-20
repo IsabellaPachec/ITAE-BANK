@@ -1,0 +1,12 @@
+.contas{
+    width: 100%;
+    height: 152vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.digital{
+    margin-top: 20%;
+}
